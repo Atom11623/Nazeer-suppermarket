@@ -22,7 +22,7 @@ export default function WholesalePage() {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  const whatsappNumber = "2340000000000"; // TODO: replace with the real business WhatsApp number
+  const whatsappNumber = "2347043642028"; // TODO: replace with the real business WhatsApp number
 
   function handleChange(field: keyof typeof form, value: string) {
     setForm((prev) => ({ ...prev, [field]: value }));
