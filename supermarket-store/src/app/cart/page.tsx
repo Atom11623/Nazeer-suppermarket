@@ -9,7 +9,7 @@ export default function CartPage() {
   const { cartProducts, updateQuantity, removeFromCart, totalPrice, clearCart, isHydrated } =
     useCart();
 
-  const whatsappNumber = "2340000000000"; // TODO: replace with the real business WhatsApp number
+  const whatsappNumber = "2347043642028"; // TODO: replace with the real business WhatsApp number
 
   const orderSummary = cartProducts
     .map(
